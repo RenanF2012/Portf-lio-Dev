@@ -95,6 +95,7 @@ body {
 .apresentacao__conteudo__texto {
     color: #1ebac5;
     font-size: 30px;
+    /*text-indent: 1.5em;*/
 }
 
 .apresentacao__links {
