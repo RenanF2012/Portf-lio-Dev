@@ -13,7 +13,7 @@ body {
 
 .cabecalho__menu__link {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Fira Code, Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -37,7 +37,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,23 +47,24 @@ body {
 .apresentacao__conteudo {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 15px;
 }
 
 .apresentacao__conteudo__titulo{
     color: rgb(209, 30, 209);
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .apresentacao__conteudo__texto {
     color: #1ebac5;
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 1px;
     
     
 }
 
 .apresentacao__imagem {
-    width: 30%;
+    width: 35%;
 }
 
