@@ -13,7 +13,7 @@ body {
 
 .cabecalho__menu__link {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Fira Code, Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -38,6 +38,9 @@ body {
 
 .apresentacao {
     padding: 5% 15%;
+    /*padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,6 +71,6 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 40%;
+    width: 30%;
 }
 
