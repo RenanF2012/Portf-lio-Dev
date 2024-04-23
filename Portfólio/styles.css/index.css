@@ -122,12 +122,11 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    margin-left: 250px;
-    gap: 35px
+    gap: 25px
 }
 
 .rodape__container {
-    margin-left: 150px;  
+    margin-left: 30%;  
 }
 
 .rodape__email {
@@ -151,7 +150,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
    /*body {
         display: block;
     }
@@ -203,4 +202,29 @@ body {
         font-weight: 500;
         padding: 15px 0;
     }
+
+    .rodape {
+        background-color: #1ebac5;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container {
+       height: 30%;
+       flex-direction: column;
+       padding: 1% 15%;
+       /*margin-left: 11em;
+       margin-right: 12em;*/
+    }
+
+    .rodape__container {
+        margin-left: 1em;
+        gap: 0.5em
+    }
+
+    .rodape__email {
+        gap: 1px;
+        margin-left: 0.7em;
+    }
+    
 }
